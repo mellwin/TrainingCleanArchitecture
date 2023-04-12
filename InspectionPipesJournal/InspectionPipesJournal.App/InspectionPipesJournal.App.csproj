@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDC546B5-4650-4C9D-93EE-8510552D6565}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>InspectionPipesJournal.App</RootNamespace>
+    <AssemblyName>InspectionPipesJournal.App</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AUseCase.cs" />
+    <Compile Include="FormMain\Delete\DeleteUseCase.cs" />
+    <Compile Include="FormMain\Delete\IViewForDelete.cs" />
+    <Compile Include="FormMain\Load\FormMainValues.cs" />
+    <Compile Include="FormMain\Load\IViewForLoad.cs" />
+    <Compile Include="FormMain\Load\loadUseCase.cs" />
+    <Compile Include="FormRecord\InitDdl\InitialDdlUseCase.cs" />
+    <Compile Include="FormRecord\InitDdl\IViewInitialDdl.cs" />
+    <Compile Include="FormRecord\Save\FormRecordValues.cs" />
+    <Compile Include="FormRecord\Save\IViewForSave.cs" />
+    <Compile Include="FormRecord\Save\SaveUseCase.cs" />
+    <Compile Include="FormRecord\SwitchOpenMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InspectionPipesJournal.Domain\InspectionPipesJournal.Domain.csproj">
+      <Project>{fc955c62-78ba-428f-a5b3-e7611166dd5e}</Project>
+      <Name>InspectionPipesJournal.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

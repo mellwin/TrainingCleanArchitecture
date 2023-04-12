@@ -1,0 +1,6 @@
+C:\Users\oapar\OneDrive\Рабочий стол\Trening\InspectionPipesJournal\InspectionPipesJournal\obj\Debug\InspectionPipesJournal.WinForms.csproj.AssemblyReference.cache
+C:\Users\oapar\OneDrive\Рабочий стол\Trening\InspectionPipesJournal\InspectionPipesJournal\obj\Debug\InspectionPipesJournal.FormMain.resources
+C:\Users\oapar\OneDrive\Рабочий стол\Trening\InspectionPipesJournal\InspectionPipesJournal\obj\Debug\InspectionPipesJournal.FormRecord.resources
+C:\Users\oapar\OneDrive\Рабочий стол\Trening\InspectionPipesJournal\InspectionPipesJournal\obj\Debug\InspectionPipesJournal.Properties.Resources.resources
+C:\Users\oapar\OneDrive\Рабочий стол\Trening\InspectionPipesJournal\InspectionPipesJournal\obj\Debug\InspectionPipesJournal.WinForms.csproj.GenerateResource.cache
+C:\Users\oapar\OneDrive\Рабочий стол\Trening\InspectionPipesJournal\InspectionPipesJournal\obj\Debug\InspectionPipesJournal.WinForms.csproj.CoreCompileInputs.cache

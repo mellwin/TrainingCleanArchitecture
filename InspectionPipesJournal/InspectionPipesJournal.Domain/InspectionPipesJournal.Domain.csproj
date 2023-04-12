@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC955C62-78BA-428F-A5B3-E7611166DD5E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>InspectionPipesJournal.Domain</RootNamespace>
+    <AssemblyName>InspectionPipesJournal.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\IJournalRecordsRepo.cs" />
+    <Compile Include="Contracts\ISprRepo.cs" />
+    <Compile Include="DataForCreate.cs" />
+    <Compile Include="DataForEdit.cs" />
+    <Compile Include="DtoDataForRestore.cs" />
+    <Compile Include="Exceptions\InvalidDiameterUseEx.cs" />
+    <Compile Include="Exceptions\IUseEx.cs" />
+    <Compile Include="Exceptions\RecordNotFoundEx.cs" />
+    <Compile Include="Journal.cs" />
+    <Compile Include="JournalRecord.cs" />
+    <Compile Include="Spr.cs" />
+    <Compile Include="Spravochniki\DataForSprDiameters.cs" />
+    <Compile Include="Spravochniki\DataForSprNomenclatures.cs" />
+    <Compile Include="Spravochniki\SprDiameters.cs" />
+    <Compile Include="Spravochniki\SprNomenclatures.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{AA4A5F2A-7005-46EE-9627-083883201E18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1DA8B321-1D09-4ABC-B6FF-3282FEE594C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9E8AD002-050C-4B73-A0AF-D370D815F47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspectionPipesJournal.App", "InspectionPipesJournal.App\InspectionPipesJournal.App.csproj", "{DDC546B5-4650-4C9D-93EE-8510552D6565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspectionPipesJournal.Domain", "InspectionPipesJournal.Domain\InspectionPipesJournal.Domain.csproj", "{FC955C62-78BA-428F-A5B3-E7611166DD5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspectionPipesJournal.DAL", "InspectionPipesJournal.DAL\InspectionPipesJournal.DAL.csproj", "{0530E56B-3701-4E0D-9C63-9BBA0ED283E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspectionPipesJournal.WinForm", "InspectionPipesJournal.WinForm\InspectionPipesJournal.WinForm.csproj", "{46204B07-E481-47F1-8389-F26FB5D700B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC546B5-4650-4C9D-93EE-8510552D6565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC546B5-4650-4C9D-93EE-8510552D6565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC546B5-4650-4C9D-93EE-8510552D6565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC546B5-4650-4C9D-93EE-8510552D6565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC955C62-78BA-428F-A5B3-E7611166DD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC955C62-78BA-428F-A5B3-E7611166DD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC955C62-78BA-428F-A5B3-E7611166DD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC955C62-78BA-428F-A5B3-E7611166DD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0530E56B-3701-4E0D-9C63-9BBA0ED283E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0530E56B-3701-4E0D-9C63-9BBA0ED283E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0530E56B-3701-4E0D-9C63-9BBA0ED283E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0530E56B-3701-4E0D-9C63-9BBA0ED283E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46204B07-E481-47F1-8389-F26FB5D700B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46204B07-E481-47F1-8389-F26FB5D700B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46204B07-E481-47F1-8389-F26FB5D700B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46204B07-E481-47F1-8389-F26FB5D700B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDC546B5-4650-4C9D-93EE-8510552D6565} = {AA4A5F2A-7005-46EE-9627-083883201E18}
+		{FC955C62-78BA-428F-A5B3-E7611166DD5E} = {AA4A5F2A-7005-46EE-9627-083883201E18}
+		{0530E56B-3701-4E0D-9C63-9BBA0ED283E6} = {1DA8B321-1D09-4ABC-B6FF-3282FEE594C6}
+		{46204B07-E481-47F1-8389-F26FB5D700B1} = {9E8AD002-050C-4B73-A0AF-D370D815F47B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF8ED329-E7F7-4DEB-86FB-25B9650A1C11}
+	EndGlobalSection
+EndGlobal
